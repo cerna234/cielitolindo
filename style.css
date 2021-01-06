@@ -1,0 +1,993 @@
+html,body {
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+
+    background-color: rgb(82, 42, 26);
+    background-image: url("cathedral.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+/* Navigation bar styling start 
+---------------------------------------------------
+*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0.192);
+    position: relative;
+    bottom: 20px;
+  
+
+  
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    position: relative;
+    top: 45px;
+    color: white;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px black;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul li a:hover{
+    color: red;
+    text-shadow: none;
+}
+
+.logo{
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+}
+
+/* Navigation bar styling ending
+---------------------------------------------------
+*/
+
+
+/* index.html styling */
+
+
+/*      First page styling start
+---------------------------------------------------  
+*/
+
+.first-page{
+    background-image: url("background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+   
+}
+
+
+
+
+/* main-page text */
+.main-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+   
+    
+    
+}
+
+.cielito-lindo{
+    color: white;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
+    font-size: 30px;
+    font-size: 65px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    bottom: 25px;
+    text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.699);
+    
+    
+}
+
+.subtext{
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.466);
+    font-size: 20px;
+    position: relative;
+    bottom: 105px;
+    font-size: 20px;
+}
+
+
+/* Buttons */
+.button-section{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 100%;
+    position: relative;
+   
+  
+    
+    
+}
+
+
+.our-menu{
+    background:    #ff0000;
+    border-radius: 5px;
+    padding:       15px 30px;
+    border-color: rgba(206, 126, 126, 0);
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    font-family: 'Nunito', sans-serif;
+
+    position: relative;
+    bottom: 95px;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+    
+    left: 5%;
+    text-decoration: none;
+    
+}
+
+.Gallery{
+    background:    #ffffff;
+    border-radius: 5px;
+    border-color: rgba(206, 126, 126, 0);
+    padding:       15px 35px;
+    color:         #ff0000;
+    display:       inline-block;
+    font:          normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:    center;
+
+    font-family: 'Nunito', sans-serif;
+
+    position: relative;
+    bottom: 95px;
+
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+  
+    right: 5%;
+    text-decoration: none;
+    
+}
+
+/*      First page styling ending
+---------------------------------------------------  
+*/
+
+
+
+
+/*      Second page Styling start
+----------------------------------------------------
+*/
+
+.second-page{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(56, 25, 0, 0.89);
+    position: relative;
+    bottom: 2px;
+    
+}
+
+
+
+
+.menu{
+    background-image: url("tacos2.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.589);
+    width: 75%;
+    height: 60%;
+    position: relative;
+    left: 12%;
+    top: 10%;
+
+
+    text-align: center;
+    border-radius: 4px;
+    
+    
+    
+}
+
+
+/* "menu page" */
+.text2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* buttons */
+.button2{
+    background:    #ff0000;
+    border-radius: 5px;
+    padding:       10px 40px;
+    border-color: rgba(206, 126, 126, 0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: white;
+    color: red;
+}
+
+/*      Second page Styling ending
+----------------------------------------------------
+*/
+
+
+/* Third page styling Hours styling page start
+----------------------------------------------------
+*/
+
+.third-page{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(56, 25, 0, 0.973);
+    position: relative;
+    bottom: 3px;
+    
+   
+   
+}
+
+
+
+
+.hours-title{
+    color: white;
+    text-align: center;
+   
+    background-color: rgba(252, 0, 0, 0.199);
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+/* Third page styling Hours styling page ending
+----------------------------------------------------
+*/
+
+
+
+/* Contact form styling start
+----------------------------------------------------
+*/
+
+form{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+.email input{
+   position: relative;
+   width: 70%;
+   left: 12% ;
+   box-shadow: 3px 3px 3px black;
+   border-radius: 5px;
+}
+
+.message{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.message input {
+    height: 15vh;
+    width: 70%;
+    position: relative;
+    left: 13% ;
+    box-shadow: 3px 3px 3px black;
+    top: 20px;
+    border-radius: 5px;
+}
+
+
+form button{
+    background:    #ff0000;
+    border-radius: 5px;
+    padding:       10px 10px;
+    border-color: rgba(206, 126, 126, 0);
+    color:#ffffff;
+    display:inline-block;
+    font:normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:center;
+    font-family:'Nunito', sans-serif;
+    width:40%;
+    position:relative;
+    top: 70px;
+    left: 30%;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+}
+
+
+
+.contact-us{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 20px;
+    padding: 25px;
+    
+    
+  }
+  .grid-item {
+    background-color: rgba(214, 0, 0, 0);
+    border: 1px solid rgba(226, 226, 226, 0.116);
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+
+ #contact-page{
+     position: relative;
+     bottom: 20px;
+     width: 100%;
+     height: 65vh;
+ }
+#backToTop{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+ /* Contact form styling start
+----------------------------------------------------
+*/
+
+
+/* menu.html styling */
+ /* Menu page styling page starting
+ ------------------------------
+
+
+ -------------------------------
+ */
+
+
+
+
+ #white-box{
+     background-color: rgb(255, 255, 255);
+     width: 90%;
+     height: 95%;
+     position: relative;
+     left: 5%;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+     border: 1px solid rgba(0, 0, 0, 0.418);
+ }
+ #menu-title{
+     text-align: center;
+ }
+ 
+ .container{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+/* Button section 
+------------------------------
+*/
+
+ /* Breakfast button */
+ #button1{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+/* Lunch button */
+#button2,#button3,#button4,#button5,#button6{
+   
+   transition: 0.5s;
+}
+/* Dinner button */
+
+
+ .menu-buttons-container{
+     width:90.3%;
+     left: 5%;
+     display: flex;
+     position: relative;
+     font-family: 'Dancing Script', cursive;
+   
+     
+     
+     
+ }
+
+ .menu-buttons{
+    background:    #ff0000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+    border-color: rgba(206, 126, 126, 0);
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 12px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+
+    
+    
+ }
+
+
+ /* Food description styling */
+ .description{
+    width: 100%;
+    
+   
+   text-align: center;
+   
+   font-size: 15px;
+   height: 56px;
+   
+   color: rgb(26, 26, 26);
+   font-weight: 400;
+   
+   
+ }
+ .left-side{
+    width: 50%;
+   height: 90vh;
+}
+
+ /* Price description styling */
+ .price{
+    width: 100%;
+    text-align: center;
+    
+    height: 56px;
+    font-size: 15px;
+    color: red;
+    font-family: 'Caveat', cursive;
+    
+    
+ }
+ .right-side{
+     width: 50%;
+    height: 90vh;
+ }
+
+
+ /* breakfast page on menu page  */
+ #page1{
+     opacity: 100%;
+     transition: 0.2s;
+    
+    
+ }
+ 
+
+
+ /* Lunch page on menu page  */
+
+ #page2{
+    opacity: 0%;
+    position: relative;
+    bottom: 34.5%;
+    transition: 0.2s;
+   
+
+   
+   
+   
+}
+
+
+ /* Dinner page on menu page  */
+#page3{
+    position: relative;
+    bottom: 68.8%;
+    opacity: 0%;
+    transition: 0.2s;
+  
+
+   
+    
+}
+
+#page4{
+    position: relative;
+    bottom: 103.3%;
+    opacity: 0%;
+}
+#page5{
+    position: relative;
+    bottom: 137.6%;
+    opacity: 0%;
+}
+
+#page6{
+    position: relative;
+    bottom: 172%;
+    opacity: 0%;
+}
+
+
+ /* Menu page styling page ending
+ ------------------------------
+
+
+ -------------------------------
+ */
+
+ 
+
+ 
+
+
+ 
+
+ /* styling when page is 700px or over 
+
+--------------------------------------
+
+
+
+
+
+
+
+----------------------------------------
+ */
+ 
+ @media only screen and (min-width: 700px){
+
+    /* Main page buttons styling */
+    .our-menu{
+
+        padding:20px 40px;
+        left: 10%;  
+    }
+    
+    .Gallery{
+        padding:20px 45px;
+        right: 10%;
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+    }
+  
+
+   /* Hours section on index.html */
+    .third-page{
+        
+        width: 100%;
+        height: 60vh;
+       
+       
+    }
+
+   
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+        border-radius: 20px;
+        padding: 40px;
+        
+        
+      }
+      .grid-item {
+        background-color: rgba(214, 0, 0, 0);
+        border: 1px solid rgba(226, 226, 226, 0.116);
+        color: white;
+        padding: 40px;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+
+
+      /* Contact form styling */
+      form{
+        width: 100%;
+        height: 10vh;
+        
+    
+     
+     
+        font-size: 20px;
+        
+    
+      
+        
+    
+        
+    }
+
+
+    /*      Second page Styling     */
+
+    .second-page{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(56, 25, 0, 0.89);
+    position: relative;
+    bottom: 2px;
+    
+}
+
+
+
+
+    .menu{
+    background-image: url("tacos2.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.589);
+    width: 75%;
+    height: 70%;
+    position: relative;
+    left: 12%;
+    top: 10%;
+
+
+    text-align: center;
+    border-radius: 4px;
+    
+    
+    
+}
+
+
+    /* "menu page" */
+    .text2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+}
+
+    /* View */
+    .button2{
+    background:    #ff0000;
+    border-radius: 5px;
+    padding:       15px 50px;
+    border-color: rgba(206, 126, 126, 0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: white;
+    color: red;
+}
+    
+    .email{
+        
+        
+        padding-bottom: 20px;
+        
+        
+    }
+    .email input{
+      
+       width: 40%;
+       left: 30% ;
+       box-shadow: 3px 3px 3px black;
+       border-radius: 5px;
+         
+    }
+    
+    .message{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    
+    }
+    
+    .message input {
+        height: 15vh;
+        width: 40%;
+        position: relative;
+        left: 30% ;
+        box-shadow: 3px 3px 3px black;
+        top: 20px;
+        border-radius: 5px;
+    }
+    
+    
+    form button{
+        background:    #ff0000;
+        border-radius: 5px;
+        padding:       10px 10px;
+        border-color: rgba(206, 126, 126, 0);
+        color:         #ffffff;
+        display:       inline-block;
+        font:          normal bold 12px/1 "Open Sans", sans-serif;
+        text-align:    center;
+        font-family: 'Nunito', sans-serif;
+        width: 20%;
+        position: relative;
+        top: 70px;
+        left: 40%;
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+    }
+    
+    
+    
+    .contact-us{
+        color: rgb(253, 253, 253);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .menu-buttons{
+       
+        padding-top: 40px;
+        padding-bottom: 40px;
+      
+     }
+     .description{
+
+       font-size: 20px;
+     }
+    
+    
+     .price{
+        font-size: 20px;
+
+     }
+
+    
+
+ }
+   
+
+ /* styling when page is 1000px or over 
+
+--------------------------------------
+
+
+
+
+
+
+
+----------------------------------------
+ */
+
+ @media only screen and (min-width: 1000px){
+    .button-section{
+   
+        width: 40%;
+        left: 25%;
+       
+    
+        
+    }
+    .first-page{
+        
+        width: 100%;
+        height: 100vh;
+       
+       
+    }
+    .our-menu{
+        
+        padding:       20px 50px;
+       
+        
+      
+    
+       
+        bottom: 70px;
+        box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
+        
+        position: relative;
+
+        right: 10%;
+
+        
+       
+        
+    }
+    
+    .Gallery{
+    
+        padding:       20px 50px;
+       
+        bottom: 70px;
+    
+        position: relative;
+
+        left: 10%;
+     
+        
+    }
+
+    .cielito-lindo{
+        
+        padding: 20px;
+        
+        
+        font-size: 100px;
+        
+        bottom: 25px;
+        text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.699);
+        
+        
+    }
+    
+    .subtext{
+        color: rgb(255, 255, 255);
+        text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.466);
+        font-size: 35px;
+        position: relative;
+        bottom: 105px;
+        
+    }
+    .logo{
+        width: 100px;
+        height: 180px;
+        position: relative;
+        bottom: 60px;
+        right: 100px;
+    }
+
+    ul{
+        top: 80px;
+    }
+
+ 
+   
+
+
+
+
+      /*      Second page Styling     */
+
+.second-page{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(56, 25, 0, 0.89);
+    position: relative;
+    bottom: 2px;
+    
+}
+
+
+
+
+.menu{
+    background-image: url("tacos2.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.589);
+    width: 75%;
+    height: 85%;
+    position: relative;
+    left: 12%;
+    top: 5%;
+
+
+    text-align: center;
+    border-radius: 4px;
+    
+    
+    
+}
+
+
+
+.text2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button2{
+    background:    #ff0000;
+    border-radius: 5px;
+    padding:       30px 80px;
+    border-color: rgba(206, 126, 126, 0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    position: relative;
+    top: 20%;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: white;
+    color: red;
+}
+   
+
+.description{
+
+    font-size: 20px;
+  }
+ 
+ 
+  .price{
+     font-size: 20px;
+
+  }
+  .menu-subtext{
+      font-size: 15px;
+      color: rgb(116, 116, 116);
+  }
+ }
