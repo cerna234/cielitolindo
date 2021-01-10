@@ -56,12 +56,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 
 function page1(){
-    document.getElementById("page1").style.opacity = "100%";
-    document.getElementById("page2").style.opacity = "0%";
-    document.getElementById("page3").style.opacity = "0%";
-    document.getElementById("page4").style.opacity = "0%";
-    document.getElementById("page5").style.opacity = "0%";
-    document.getElementById("page6").style.opacity = "0%";
+    document.getElementById("img").src = "menu-page7(updated).jpg";
 
     document.getElementById("button1").style.backgroundColor = "white";
     document.getElementById("button2").style.backgroundColor = "red";
@@ -69,6 +64,7 @@ function page1(){
     document.getElementById("button4").style.backgroundColor = "red";
     document.getElementById("button5").style.backgroundColor = "red";
     document.getElementById("button6").style.backgroundColor = "red";
+    document.getElementById("button7").style.backgroundColor = "red";
 
     document.getElementById("button1").style.color = "red";
     document.getElementById("button2").style.color = "white";
@@ -76,6 +72,7 @@ function page1(){
     document.getElementById("button4").style.color = "white";
     document.getElementById("button5").style.color = "white";
     document.getElementById("button6").style.color = "white";
+    document.getElementById("button7").style.color = "white";
 
 
 
@@ -86,12 +83,7 @@ function page1(){
 }
 
 function page2(){
-    document.getElementById("page2").style.opacity = "100%";
-    document.getElementById("page1").style.opacity = "0%";
-    document.getElementById("page3").style.opacity = "0%";
-    document.getElementById("page4").style.opacity = "0%";
-    document.getElementById("page5").style.opacity = "0%";
-    document.getElementById("page6").style.opacity = "0%";
+    document.getElementById("img").src = "menu-page6(updated).jpg"
 
     document.getElementById("button2").style.backgroundColor = "white";
     document.getElementById("button1").style.backgroundColor = "red";
@@ -99,6 +91,7 @@ function page2(){
     document.getElementById("button4").style.backgroundColor = "red";
     document.getElementById("button5").style.backgroundColor = "red";
     document.getElementById("button6").style.backgroundColor = "red";
+    document.getElementById("button7").style.backgroundColor = "red";
 
     document.getElementById("button2").style.color = "red";
     document.getElementById("button1").style.color = "white";
@@ -106,15 +99,11 @@ function page2(){
     document.getElementById("button4").style.color = "white";
     document.getElementById("button5").style.color = "white";
     document.getElementById("button6").style.color = "white";
+    document.getElementById("button7").style.color = "white";
 }
 
 function page3(){
-    document.getElementById("page3").style.opacity = "100%";
-    document.getElementById("page1").style.opacity = "0%";
-    document.getElementById("page2").style.opacity = "0%";
-    document.getElementById("page4").style.opacity = "0%";
-    document.getElementById("page5").style.opacity = "0%";
-    document.getElementById("page6").style.opacity = "0%";
+  document.getElementById("img").src = "menu-page5(updated).jpg";
 
     document.getElementById("button3").style.backgroundColor = "white";
     document.getElementById("button1").style.backgroundColor = "red";
@@ -122,6 +111,7 @@ function page3(){
     document.getElementById("button4").style.backgroundColor = "red";
     document.getElementById("button5").style.backgroundColor = "red";
     document.getElementById("button6").style.backgroundColor = "red";
+    document.getElementById("button7").style.backgroundColor = "red";
 
     document.getElementById("button3").style.color = "red";
     document.getElementById("button1").style.color = "white";
@@ -129,16 +119,12 @@ function page3(){
     document.getElementById("button4").style.color = "white";
     document.getElementById("button5").style.color = "white";
     document.getElementById("button6").style.color = "white";
+    document.getElementById("button7").style.color = "white";
 
 }
 
 function page4(){
-  document.getElementById("page4").style.opacity = "100%";
-  document.getElementById("page1").style.opacity = "0%";
-  document.getElementById("page2").style.opacity = "0%";
-  document.getElementById("page3").style.opacity = "0%";
-  document.getElementById("page5").style.opacity = "0%";
-  document.getElementById("page6").style.opacity = "0%";
+  document.getElementById("img").src = "menu-page4(updated).jpg";
 
   document.getElementById("button4").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
@@ -146,6 +132,7 @@ function page4(){
   document.getElementById("button3").style.backgroundColor = "red";
   document.getElementById("button5").style.backgroundColor = "red";
   document.getElementById("button6").style.backgroundColor = "red";
+  document.getElementById("button7").style.backgroundColor = "red";
 
   document.getElementById("button4").style.color = "red";
   document.getElementById("button1").style.color = "white";
@@ -153,15 +140,12 @@ function page4(){
   document.getElementById("button3").style.color = "white";
   document.getElementById("button5").style.color = "white";
   document.getElementById("button6").style.color = "white";
+  document.getElementById("button7").style.color = "white";
 }
 
 function page5(){
-  document.getElementById("page5").style.opacity = "100%";
-  document.getElementById("page1").style.opacity = "0%";
-  document.getElementById("page2").style.opacity = "0%";
-  document.getElementById("page3").style.opacity = "0%";
-  document.getElementById("page4").style.opacity = "0%";
-  document.getElementById("page6").style.opacity = "0%";
+  document.getElementById("img").src = "menu-page3(updated).jpg";
+ 
 
   document.getElementById("button5").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
@@ -169,6 +153,7 @@ function page5(){
   document.getElementById("button3").style.backgroundColor = "red";
   document.getElementById("button4").style.backgroundColor = "red";
   document.getElementById("button6").style.backgroundColor = "red";
+  document.getElementById("button7").style.backgroundColor = "red";
 
   document.getElementById("button5").style.color = "red";
   document.getElementById("button1").style.color = "white";
@@ -176,15 +161,11 @@ function page5(){
   document.getElementById("button3").style.color = "white";
   document.getElementById("button4").style.color = "white";
   document.getElementById("button6").style.color = "white";
+  document.getElementById("button7").style.color = "white";
 }
 
 function page6(){
-  document.getElementById("page6").style.opacity = "100%";
-  document.getElementById("page1").style.opacity = "0%";
-  document.getElementById("page2").style.opacity = "0%";
-  document.getElementById("page3").style.opacity = "0%";
-  document.getElementById("page4").style.opacity = "0%";
-  document.getElementById("page5").style.opacity = "0%";
+  document.getElementById("img").src = "menu-page2(updated).jpg";
 
   document.getElementById("button6").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
@@ -192,6 +173,7 @@ function page6(){
   document.getElementById("button3").style.backgroundColor = "red";
   document.getElementById("button4").style.backgroundColor = "red";
   document.getElementById("button5").style.backgroundColor = "red";
+  document.getElementById("button7").style.backgroundColor = "red";
 
   document.getElementById("button6").style.color = "red";
   document.getElementById("button1").style.color = "white";
@@ -199,6 +181,28 @@ function page6(){
   document.getElementById("button3").style.color = "white";
   document.getElementById("button4").style.color = "white";
   document.getElementById("button5").style.color = "white";
+  document.getElementById("button7").style.color = "white";
+}
+
+
+function page7(){
+  document.getElementById("img").src = "menu-page1(updated).jpg";
+
+  document.getElementById("button7").style.backgroundColor = "white";
+  document.getElementById("button1").style.backgroundColor = "red";
+  document.getElementById("button2").style.backgroundColor = "red";
+  document.getElementById("button3").style.backgroundColor = "red";
+  document.getElementById("button4").style.backgroundColor = "red";
+  document.getElementById("button5").style.backgroundColor = "red";
+  document.getElementById("button6").style.backgroundColor = "red";
+
+  document.getElementById("button7").style.color = "red";
+  document.getElementById("button1").style.color = "white";
+  document.getElementById("button2").style.color = "white";
+  document.getElementById("button3").style.color = "white";
+  document.getElementById("button4").style.color = "white";
+  document.getElementById("button5").style.color = "white";
+  document.getElementById("button6").style.color = "white";
 }
 
 
@@ -229,3 +233,14 @@ setInterval(function() {
         i =  0;
       }
 }, 4000);
+
+
+
+
+
+
+
+
+
+           
+
