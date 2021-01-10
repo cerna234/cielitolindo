@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 
 function page1(){
-    document.getElementById("img").src = "menu-page7(updated).jpg";
+    document.getElementById("img-menu").src = "menu-page7(updated).jpg";
 
     document.getElementById("button1").style.backgroundColor = "white";
     document.getElementById("button2").style.backgroundColor = "red";
@@ -83,7 +83,7 @@ function page1(){
 }
 
 function page2(){
-    document.getElementById("img").src = "menu-page6(updated).jpg"
+    document.getElementById("img-menu").src = "menu-page6(updated).jpg"
 
     document.getElementById("button2").style.backgroundColor = "white";
     document.getElementById("button1").style.backgroundColor = "red";
@@ -103,7 +103,7 @@ function page2(){
 }
 
 function page3(){
-  document.getElementById("img").src = "menu-page5(updated).jpg";
+  document.getElementById("img-menu").src = "menu-page5(updated).jpg";
 
     document.getElementById("button3").style.backgroundColor = "white";
     document.getElementById("button1").style.backgroundColor = "red";
@@ -124,7 +124,7 @@ function page3(){
 }
 
 function page4(){
-  document.getElementById("img").src = "menu-page4(updated).jpg";
+  document.getElementById("img-menu").src = "menu-page4(updated).jpg";
 
   document.getElementById("button4").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
@@ -144,7 +144,7 @@ function page4(){
 }
 
 function page5(){
-  document.getElementById("img").src = "menu-page3(updated).jpg";
+  document.getElementById("img-menu").src = "menu-page3(updated).jpg";
  
 
   document.getElementById("button5").style.backgroundColor = "white";
@@ -165,7 +165,7 @@ function page5(){
 }
 
 function page6(){
-  document.getElementById("img").src = "menu-page2(updated).jpg";
+  document.getElementById("img-menu").src = "menu-page2(updated).jpg";
 
   document.getElementById("button6").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
@@ -186,7 +186,7 @@ function page6(){
 
 
 function page7(){
-  document.getElementById("img").src = "menu-page1(updated).jpg";
+  document.getElementById("img-menu").src = "menu-page1(updated).jpg";
 
   document.getElementById("button7").style.backgroundColor = "white";
   document.getElementById("button1").style.backgroundColor = "red";
