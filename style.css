@@ -603,19 +603,23 @@ form button{
 
  
 .image-box{
-    width: 85%;
-    height: 70%;
+    width: 75%;
+    height: 40%;
     position: relative;
+    display: flex;
+    flex-direction: column;
   
-    left: 10%;
+    left: 13%;
     
     box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.308);
     border-radius: 10px ;
+   
 }
 #img-menu{
     width: 100%;
     height: 100%;
     border-radius: 10px ;
+    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.404);
 }
 
  .button-container{
@@ -633,6 +637,12 @@ form button{
      background-color: red;
      color: white;
 
+ }
+
+ #menu-page {
+     color: white;
+     text-align: center;
+     text-shadow: 2px 2px 2px black;
  }
 
  /* styling when page is 700px or over 
@@ -1098,3 +1108,4 @@ form button{
 
 
  }
+
