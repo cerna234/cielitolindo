@@ -94,7 +94,7 @@ nav ul li a:hover{
     font-size: 65px;
     font-family: 'Dancing Script', cursive;
     position: relative;
-    bottom: 10px;
+    top: 40px;
     text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.699);
 }
 
@@ -103,7 +103,7 @@ nav ul li a:hover{
     text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.466);
     font-size: 20px;
     position: relative;
-    bottom: 95px;
+    bottom: 45px;
     font-size: 20px;
 }
 /* Buttons */
@@ -126,7 +126,7 @@ nav ul li a:hover{
     text-align:center;
     font-family: 'Nunito', sans-serif;
     position: relative;
-    bottom: 85px;
+    bottom: 35px;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
     left: 5%;
     text-decoration: none;
@@ -144,7 +144,7 @@ nav ul li a:hover{
     text-align:    center;
     font-family: 'Nunito', sans-serif;
     position: relative;
-    bottom: 85px;
+    bottom: 35px;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.61);
     right: 5%;
     text-decoration: none;   
