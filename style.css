@@ -6,14 +6,14 @@ html,body {
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
+    
 }
 
 
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(82, 42, 26);
-    background-image: url("cathedral.jpg");
+    background-color: rgb(54, 31, 13);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -54,8 +54,10 @@ nav ul li a:hover{
 
 .logo{
     position: relative;
-    bottom: 30px;
+    bottom: 90px;
     right: 40px;
+    max-width: 100%;
+    
 }
 
 /* Navigation bar styling ending
@@ -177,7 +179,7 @@ nav ul li a:hover{
     top: 10%;
     text-align: center;
     border-radius: 4px;
-    
+    transition: 1s;
     
     
 }
@@ -205,14 +207,16 @@ nav ul li a:hover{
     font:normal bold 12px/1 "Open Sans", sans-serif;
     text-align:    center;
     position: relative;
-    top: 20%;
+    top: 40%;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
+   
 }
 .button2:hover{
     background-color: white;
     color: red;
 }
+
 
 /*      Second page Styling ending
 ----------------------------------------------------
@@ -305,6 +309,7 @@ form button{
     color: rgb(253, 253, 253);
     text-align: center;
     font-size: 35px;
+    
 }
 .grid-container {
     display: grid;
@@ -315,7 +320,7 @@ form button{
   .grid-item {
     background-color: rgba(214, 0, 0, 0);
     border: 1px solid rgba(226, 226, 226, 0.116);
-    color: white;
+    color: rgb(200, 200, 200);
     padding: 20px;
     font-size: 12px;
     text-align: center;
@@ -325,12 +330,40 @@ form button{
      bottom: 20px;
      width: 100%;
      height: 65vh;
+    
+     background-size: cover;
+     
  }
 #backToTop{
     text-align: center;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-decoration: none;
+    background-color: rgb(54, 31, 13);
+   
+}
+
+#map-page{
+    height: 90vh;
+    background-color: rgb(54, 31, 13);
+   
+}
+
+#map-page h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(241, 0, 0, 0.294);
+    font-family: 'Nunito', sans-serif;
+   
+}
+#map{
+    width: 80%;
+ 
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.342);
+    position: relative;
+    left: 10%;
+  
+    
 }
  /* Contact form styling start
 ----------------------------------------------------
@@ -368,94 +401,10 @@ form button{
     color: red;
     transition: 0.5s;
 }
-/* Lunch button */
-#button2,#button3,#button4,#button5,#button6{
-   transition: 0.5s;
-}
-/* Dinner button */
- .menu-buttons-container{
-     width:90.3%;
-     left: 5%;
-     display: flex;
-     position: relative;
-     font-family: 'Dancing Script', cursive;   
- }
- .menu-buttons{
-    background:    #ff0000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 20%;
-    border-color: rgba(206, 126, 126, 0);
-    color:#ffffff;
-    display:inline-block;
-    font:normal bold 12px/1 "Open Sans", sans-serif;
-    text-align:center;
-    font-family: 'Nunito', sans-serif;
-    border: 1px solid rgba(0, 0, 0, 0.418);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);  
- }
- /* Food description styling */
- .description{
-    width: 100%;
-   text-align: center;
-   font-size: 15px;
-   height: 56px;
-   color: rgb(26, 26, 26);
-   font-weight: 400;  
- }
- .left-side{
-    width: 50%;
-   height: 90vh;
-}
- /* Price description styling */
- .price{
-    width: 100%;
-    text-align: center;
-    height: 56px;
-    font-size: 15px;
-    color: red;
-    font-family: 'Caveat', cursive;  
- }
- .right-side{
-     width: 50%;
-    height: 90vh;
- }
- /* breakfast page on menu page  */
- #page1{
-     opacity: 100%;
-     transition: 0.2s;  
- }
- /* Lunch page on menu page  */
- #page2{
-    opacity: 0%;
-    position: relative;
-    bottom: 34.5%;
-    transition: 0.2s;
-    background-image: url("menu-page1.jpg");  
-}
- /* Dinner page on menu page  */
-#page3{
-    position: relative;
-    bottom: 68.8%;
-    opacity: 0%;
-    transition: 0.2s;   
-}
-#page4{
-    position: relative;
-    bottom: 103.3%;
-    opacity: 0%;
-}
-#page5{
-    position: relative;
-    bottom: 137.6%;
-    opacity: 0%;
-}
-#page6{
-    position: relative;
-    bottom: 172%;
-    opacity: 0%;
-}
- /* Menu page styling page ending
+
+ 
+ 
+ /* Menu page styling page editing
  ------------------------------
   -------------------------------
  */
@@ -471,6 +420,7 @@ form button{
     box-shadow: 2px 2px 2px black;
     border-radius: 20px;  
 }
+
 .image-box{
     width: 75%;
     height: 40%;
@@ -562,8 +512,8 @@ form button{
 }
     /* View */
     .button2{
-    padding:       15px 50px;
-    top: 20%;   
+    padding:15px 50px;
+    top: 40%;
 }
 .button2:hover{
     background-color: white;
@@ -690,7 +640,7 @@ form button{
 
 .button2{
     padding:30px 80px;
-    top: 20%;
+    top: 40%;
   
 }
 .button2:hover{
