@@ -26,7 +26,7 @@ body{
 nav{
     background-color: rgba(0, 0, 0, 0.192);
     position: relative;
- 
+    bottom: 20px;
   
 
   
@@ -37,7 +37,7 @@ ul{
     text-align: right;
     justify-content: space-evenly;
     position: relative;
-    top: 45px;
+    top: 65px;
     color: white;
 }
 nav ul li a {
@@ -54,10 +54,10 @@ nav ul li a:hover{
 
 .logo{
     position: relative;
-    bottom: 20px;
-    right: 40px;
-    
-    
+    width: 80px;
+    height: 140px;
+    bottom: 40px;
+    right: 50px;
 }
 
 /* Navigation bar styling ending
