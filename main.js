@@ -46,167 +46,29 @@ window.addEventListener("DOMContentLoaded", function() {
 
 
 
-  function darkmode(){
-      document.getElementById("Gallery").style.backgroundColor = "#0f0d0d";
-      document.getElementById("Gallery").style.color = "white";
+  function changeLanguageSpanish(){
+    document.getElementById("nav-contact").innerHTML = "contacto";
+    document.getElementById("contact-us").innerHTML = "Contactanos!";
+    document.getElementById("contact-us2").innerHTML = "Contactanos!";
+    document.getElementById("subtext").innerHTML = "Mariscos y comida mexicana fresca";
+    document.getElementById("yelp-page").innerHTML = "Pagina de Yelp";
+    document.getElementById("view-menu").innerHTML = "Ver Menu";
+    document.getElementById("business-hours").innerHTML = "Horas de operacion";
+    document.getElementById("mensaje").innerHTML = "Mensaje:";
 
-      document.getElementById("Gallery").style.color = "white";
   }
 
+  function changeLanguageEnglish(){
+    document.getElementById("nav-contact").innerHTML = "Contact";
+    document.getElementById("contact-us").innerHTML = "Contact us!";
+    document.getElementById("contact-us2").innerHTML = "Contact us!";
+    document.getElementById("subtext").innerHTML = "Fresh Mexican food and Seafood";
+    document.getElementById("yelp-page").innerHTML = "Yelp page";
+    document.getElementById("view-menu").innerHTML = "View Menu";
+    document.getElementById("business-hours").innerHTML = "Business Hours:";
+    document.getElementById("mensaje").innerHTML = "Message:";
 
-
-function page1(){
-    document.getElementById("img-menu").src = "menu-page7(updated).jpg";
-
-    document.getElementById("button1").style.backgroundColor = "white";
-    document.getElementById("button2").style.backgroundColor = "red";
-    document.getElementById("button3").style.backgroundColor = "red";
-    document.getElementById("button4").style.backgroundColor = "red";
-    document.getElementById("button5").style.backgroundColor = "red";
-    document.getElementById("button6").style.backgroundColor = "red";
-    document.getElementById("button7").style.backgroundColor = "red";
-
-    document.getElementById("button1").style.color = "red";
-    document.getElementById("button2").style.color = "white";
-    document.getElementById("button3").style.color = "white";
-    document.getElementById("button4").style.color = "white";
-    document.getElementById("button5").style.color = "white";
-    document.getElementById("button6").style.color = "white";
-    document.getElementById("button7").style.color = "white";
-
-
-
-  
- 
-
-    
-}
-
-function page2(){
-    document.getElementById("img-menu").src = "menu-page6(updated).jpg"
-
-    document.getElementById("button2").style.backgroundColor = "white";
-    document.getElementById("button1").style.backgroundColor = "red";
-    document.getElementById("button3").style.backgroundColor = "red";
-    document.getElementById("button4").style.backgroundColor = "red";
-    document.getElementById("button5").style.backgroundColor = "red";
-    document.getElementById("button6").style.backgroundColor = "red";
-    document.getElementById("button7").style.backgroundColor = "red";
-
-    document.getElementById("button2").style.color = "red";
-    document.getElementById("button1").style.color = "white";
-    document.getElementById("button3").style.color = "white";
-    document.getElementById("button4").style.color = "white";
-    document.getElementById("button5").style.color = "white";
-    document.getElementById("button6").style.color = "white";
-    document.getElementById("button7").style.color = "white";
-}
-
-function page3(){
-  document.getElementById("img-menu").src = "menu-page5(updated).jpg";
-
-    document.getElementById("button3").style.backgroundColor = "white";
-    document.getElementById("button1").style.backgroundColor = "red";
-    document.getElementById("button2").style.backgroundColor = "red";
-    document.getElementById("button4").style.backgroundColor = "red";
-    document.getElementById("button5").style.backgroundColor = "red";
-    document.getElementById("button6").style.backgroundColor = "red";
-    document.getElementById("button7").style.backgroundColor = "red";
-
-    document.getElementById("button3").style.color = "red";
-    document.getElementById("button1").style.color = "white";
-    document.getElementById("button2").style.color = "white";
-    document.getElementById("button4").style.color = "white";
-    document.getElementById("button5").style.color = "white";
-    document.getElementById("button6").style.color = "white";
-    document.getElementById("button7").style.color = "white";
-
-}
-
-function page4(){
-  document.getElementById("img-menu").src = "menu-page4(updated).jpg";
-
-  document.getElementById("button4").style.backgroundColor = "white";
-  document.getElementById("button1").style.backgroundColor = "red";
-  document.getElementById("button2").style.backgroundColor = "red";
-  document.getElementById("button3").style.backgroundColor = "red";
-  document.getElementById("button5").style.backgroundColor = "red";
-  document.getElementById("button6").style.backgroundColor = "red";
-  document.getElementById("button7").style.backgroundColor = "red";
-
-  document.getElementById("button4").style.color = "red";
-  document.getElementById("button1").style.color = "white";
-  document.getElementById("button2").style.color = "white";
-  document.getElementById("button3").style.color = "white";
-  document.getElementById("button5").style.color = "white";
-  document.getElementById("button6").style.color = "white";
-  document.getElementById("button7").style.color = "white";
-}
-
-function page5(){
-  document.getElementById("img-menu").src = "menu-page3(updated).jpg";
- 
-
-  document.getElementById("button5").style.backgroundColor = "white";
-  document.getElementById("button1").style.backgroundColor = "red";
-  document.getElementById("button2").style.backgroundColor = "red";
-  document.getElementById("button3").style.backgroundColor = "red";
-  document.getElementById("button4").style.backgroundColor = "red";
-  document.getElementById("button6").style.backgroundColor = "red";
-  document.getElementById("button7").style.backgroundColor = "red";
-
-  document.getElementById("button5").style.color = "red";
-  document.getElementById("button1").style.color = "white";
-  document.getElementById("button2").style.color = "white";
-  document.getElementById("button3").style.color = "white";
-  document.getElementById("button4").style.color = "white";
-  document.getElementById("button6").style.color = "white";
-  document.getElementById("button7").style.color = "white";
-}
-
-function page6(){
-  document.getElementById("img-menu").src = "menu-page2(updated).jpg";
-
-  document.getElementById("button6").style.backgroundColor = "white";
-  document.getElementById("button1").style.backgroundColor = "red";
-  document.getElementById("button2").style.backgroundColor = "red";
-  document.getElementById("button3").style.backgroundColor = "red";
-  document.getElementById("button4").style.backgroundColor = "red";
-  document.getElementById("button5").style.backgroundColor = "red";
-  document.getElementById("button7").style.backgroundColor = "red";
-
-  document.getElementById("button6").style.color = "red";
-  document.getElementById("button1").style.color = "white";
-  document.getElementById("button2").style.color = "white";
-  document.getElementById("button3").style.color = "white";
-  document.getElementById("button4").style.color = "white";
-  document.getElementById("button5").style.color = "white";
-  document.getElementById("button7").style.color = "white";
-}
-
-
-function page7(){
-  document.getElementById("img-menu").src = "menu-page1(updated).jpg";
-
-  document.getElementById("button7").style.backgroundColor = "white";
-  document.getElementById("button1").style.backgroundColor = "red";
-  document.getElementById("button2").style.backgroundColor = "red";
-  document.getElementById("button3").style.backgroundColor = "red";
-  document.getElementById("button4").style.backgroundColor = "red";
-  document.getElementById("button5").style.backgroundColor = "red";
-  document.getElementById("button6").style.backgroundColor = "red";
-
-  document.getElementById("button7").style.color = "red";
-  document.getElementById("button1").style.color = "white";
-  document.getElementById("button2").style.color = "white";
-  document.getElementById("button3").style.color = "white";
-  document.getElementById("button4").style.color = "white";
-  document.getElementById("button5").style.color = "white";
-  document.getElementById("button6").style.color = "white";
-}
-
-
-        
+  }
         
 
 
