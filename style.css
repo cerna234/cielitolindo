@@ -7,6 +7,7 @@ html,body {
     flex-direction: column;
     scroll-behavior: smooth;
     
+    
 }
 
 
@@ -22,7 +23,11 @@ body{
 /* Navigation bar styling start 
 ---------------------------------------------------
 */
-
+header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
 nav{
     background-color: rgba(0, 0, 0, 0.192);
     position: relative;
@@ -91,10 +96,10 @@ nav ul li a:hover{
     padding: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
     font-size: 30px;
-    font-size: 65px;
+    font-size: 55px;
     font-family: 'Dancing Script', cursive;
     position: relative;
-    top: 40px;
+    top: 100px;
     text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.699);
 }
 
@@ -103,7 +108,7 @@ nav ul li a:hover{
     text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.466);
     font-size: 20px;
     position: relative;
-    bottom: 45px;
+    top: 50px;
     font-size: 20px;
 }
 /* Buttons */
@@ -112,13 +117,14 @@ nav ul li a:hover{
     justify-content: space-evenly;
     width: 100%;
     position: relative;
+    top: 100px;
 }
 
 
 .our-menu{
     background:#ff0000;
     border-radius: 5px;
-    padding:15px 30px;
+    padding:10px 15px;
     border-color: rgba(206, 126, 126, 0);
     color:#ffffff;
     display:inline-block;
@@ -137,7 +143,7 @@ nav ul li a:hover{
     background:    #ffffff;
     border-radius: 5px;
     border-color: rgba(206, 126, 126, 0);
-    padding:       15px 35px;
+    padding:       10px 20px;
     color:         #ff0000;
     display:       inline-block;
     font:          normal bold 12px/1 "Open Sans", sans-serif;
@@ -159,7 +165,7 @@ nav ul li a:hover{
 .second-page{
     width: 100%;
     height: 40vh;
-    background-color: rgba(56, 25, 0, 0.89);
+    background-color: rgb(54, 31, 13);
     position: relative;
     bottom: 2px;
 }
@@ -227,14 +233,14 @@ nav ul li a:hover{
 .third-page{
     width: 100%;
     height: 40vh;
-    background-color: rgba(56, 25, 0, 0.973);
+    background-color: rgb(54, 31, 13);
     position: relative;
     bottom: 3px;
 }
 .hours-title{
     color: white;
     text-align: center;
-    background-color: rgba(252, 0, 0, 0.199);
+    background-color: rgb(54, 31, 13);
     position: relative;
     font-family: 'Nunito', sans-serif;
 }
@@ -329,19 +335,22 @@ form button{
      position: relative;
      bottom: 20px;
      width: 100%;
-     height: 65vh;
+     height:75vh;
     
      background-size: cover;
      
  }
-#backToTop{
+
+ .phone{
+    color: rgb(241, 241, 241);
+    font-size: 15px;
     text-align: center;
-    color: white;
-    padding-bottom: 20px;
-    text-decoration: none;
-    background-color: rgb(54, 31, 13);
-   
+    position: relative;
+    top: 120%;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 3px 3px black;
 }
+
 
 #map-page{
     height: 90vh;
@@ -352,7 +361,7 @@ form button{
 #map-page h1{
     text-align: center;
     color: white;
-    background-color: rgba(241, 0, 0, 0.294);
+    background-color: rgb(54, 31, 13);
     font-family: 'Nunito', sans-serif;
    
 }
@@ -456,11 +465,55 @@ form button{
      text-align: center;
      text-shadow: 2px 2px 2px black;
  }
+
+ .address{
+     color: white;
+     font-size: 12px;
+     text-align: center;
+     padding-bottom: 10px;
+     font-family: 'Nunito', sans-serif;
+ }
+
+
+ .split{
+     width: 100%;
+     height: 0.7vh;
+     background-color: rgba(247, 218, 192, 0.644);
+ }
+ .split2{
+    width: 100%;
+    height: 0.2vh;
+    background-color: rgba(247, 218, 192, 0.644);
+}
+.split3{
+    width: 100%;
+    height: 0.2vh;
+    background-color: rgba(247, 218, 192, 0.644);
+}
+#language{
+    cursor: pointer;
+}
+.language-change{
+    position: absolute;
+   z-index: 999;
+    
+}
  /* styling when page is 700px or over 
 --------------------------------------
 ----------------------------------------
  */
  @media only screen and (min-width: 700px){
+    .split2{
+        width: 100%;
+        height: 0.2vh;
+        background-color: rgba(247, 218, 192, 0.644);
+    }
+
+    .split{
+        width: 100%;
+        height: 0.5vh;
+        background-color: rgba(247, 218, 192, 0.644);
+    }
     /* Main page buttons styling */
     .our-menu{
         padding:20px 40px;
@@ -494,7 +547,7 @@ form button{
     .second-page{
     width: 100%;
     height: 60vh;
-    background-color: rgba(56, 25, 0, 0.89);
+  
     position: relative;
     bottom: 2px;   
 }
@@ -601,13 +654,22 @@ form button{
     .cielito-lindo{
         padding: 20px;
         font-size: 100px;
-        bottom: 25px;
+        bottom: 35px;
         text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.699);   
     }
     .subtext{
         font-size: 35px;
-        bottom: 105px;
+        bottom: 110px;
     }
+
+    /* Buttons */
+    .button-section{
+    display: flex;
+    justify-content: space-evenly;
+   
+    position: relative;
+    bottom: 50px;
+}
     .logo{
         width: 100px;
         height: 180px;
@@ -673,5 +735,9 @@ form button{
   
  }
 
+
+form{
+    width: 100%;
+}
 
  }
