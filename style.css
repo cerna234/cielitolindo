@@ -1,4 +1,3 @@
-
 html,body {
     margin: 0px;
     padding: 0px;
@@ -340,6 +339,10 @@ form button{
      background-size: cover;
      
  }
+ #my-form-button{
+     cursor: pointer;
+
+ }
 
  .phone{
     color: rgb(241, 241, 241);
@@ -490,19 +493,72 @@ form button{
     height: 0.2vh;
     background-color: rgba(247, 218, 192, 0.644);
 }
-#language{
+.language{
     cursor: pointer;
-}
-.language-change{
-    position: absolute;
-   z-index: 999;
     
 }
+#language-change{
+    z-index: 1;
+    position: fixed;
+    bottom: 140px;
+    background-color: rgba(37, 21, 3, 0.335);
+    padding: 1px 1px;
+    opacity: 80%;
+
+
+    
+    
+}
+#language-change:hover{
+    opacity: 100%;
+}
+
+#open-change{
+    z-index: 1;
+    position: fixed;
+    opacity: 0%;
+}
+
+#closeflags{
+    position: relative;
+    bottom: 20%;
+}
+#openflags{
+    opacity: 0%;
+}
+
+#flag1,#flag2,#closeflags,#openflags{
+    background:transparent; 
+    border:none; 
+    color:transparent;
+    
+    
+}
+
+#language-change h2{
+    color: white;
+    font-size: 8px;
+}
+
+
  /* styling when page is 700px or over 
 --------------------------------------
 ----------------------------------------
  */
  @media only screen and (min-width: 700px){
+    #language-change h2{
+        color: white;
+        font-size: 15px;
+    }
+    
+    #flag1-img{
+        width: 70px;
+        height: 40px;
+    }
+    #flag2-img{
+        width: 70px;
+        height: 40px;
+    }
     .split2{
         width: 100%;
         height: 0.2vh;
