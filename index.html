@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cielito Lindo-Home Page</title>
+    <title>Cielito Lindo</title>
     <link rel="icon" href="cathedral2.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet">
@@ -22,15 +22,24 @@
              <li><a id="nav-contact" href="#contact-page">Contact</a></li>
              
           </ul>
+
+          
       </nav>
       </header>
-
+      
         <div class="main-text">
             <h2 class="cielito-lindo">Cielito Lindo</h2>
             <h2 class="subtext" id="subtext">Fresh Mexican food and Seafood</h2>
             
         </div>
-
+        <div id="language-change">
+          <h2>Click here <br> for Langauge:</h2>
+          <button onclick="changeLanguageEnglish()" id="flag1" class="language" ><img id="flag1-img" width="25px" height="15px" src="usflag.png"></button> 
+          <br>
+          <button onclick="changeLanguageSpanish()" id="flag2" class="language"><img id="flag2-img" width="25px" height="10px" src="mexicoflag.png"></button>
+          <h2></h2>
+        
+        </div>
         <div class="button-section">
             <a href="#contact-page" id="contact-us" class="our-menu" >Contact us!</a>
             <a  href="https://www.yelp.com/biz/cielito-lindo-riverside" id="yelp-page" class="Gallery" target="blank">Yelp page</a>
@@ -45,10 +54,7 @@
 
 
     <div class="second-page">
-      <div class="language-change">
-        <a onclick="changeLanguageEnglish()" id="language"><img width="50px" height="40px" src="usflag.png"></a> 
-        <a onclick="changeLanguageSpanish()" id="language"><img width="60px" height="40px" src="mexicoflag.png"></a>
-      </div>
+     
      
 
             <div class="menu">
@@ -65,12 +71,12 @@
         <h2 class="hours-title" id="business-hours">Business Hours:</h2>
         
         <div class="grid-container">
-            <div class="grid-item">Monday: 8-9pm</div>
-            <div class="grid-item">Tuesday: 8-9pm</div>
-            <div class="grid-item">Wednesday: 8-9pm</div>
-            <div class="grid-item">Thursday: 8-9pm</div>
-            <div class="grid-item">Friday: 8-9pm</div>
-            <div class="grid-item">Sat/Sun: 8-9pm</div>
+            <div id="monday" class="grid-item">Monday: 8-9pm</div>
+            <div id="tuesday" class="grid-item">Tuesday: 8-9pm</div>
+            <div id="wednesday" class="grid-item">Wednesday: 8-9pm</div>
+            <div id="thursday" class="grid-item">Thursday: 8-9pm</div>
+            <div id="friday" class="grid-item">Friday: 7-9pm</div>
+            <div id="sat-sun" class="grid-item">Sat/Sun: 7-9pm</div>
            
             
           </div>
@@ -106,8 +112,8 @@
     <button id="my-form-button">Submit</button>
     <p id="my-form-status"></p>
 
-    <h2 class="phone">Phone number: (951) 352-3214 </h2>
-    <h2 class="phone">Email: cielito-lindo@gmail.com</h2>
+    <h2 id="phone" class="phone">Phone number: (951) 352-3214 </h2>
+    <h2 id="email" class="phone">Email: clindoriverside@gmail.com</h2>
   </form>
  
   
@@ -119,7 +125,7 @@
   <div id="map-page">
     <div class="split3"></div>
 
-      <h1>Directions</h1>
+      <h1 id="directions">Directions</h1>
 
       <h2 class="address">Address: 10277 Arlington Ave, Riverside, CA 92503</h2>
 
