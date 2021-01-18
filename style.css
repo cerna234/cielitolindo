@@ -872,7 +872,7 @@ form{
 
 
 
- @media only screen and (max-height: 500px){
+ @media only screen and (max-height: 650px){
     .first-page{
         background-image: url("background.jpg");
         background-size: cover;
