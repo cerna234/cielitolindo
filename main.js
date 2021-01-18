@@ -55,6 +55,17 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("view-menu").innerHTML = "Ver Menu";
     document.getElementById("business-hours").innerHTML = "Horas de operacion";
     document.getElementById("mensaje").innerHTML = "Mensaje:";
+    document.getElementById("directions").innerHTML = "Direcciones";
+
+    document.getElementById("monday").innerHTML = "Lunes: 8-9pm";
+    document.getElementById("tuesday").innerHTML = "Martes: 8-9pm";
+    document.getElementById("wednesday").innerHTML = "Miercoles: 8-9pm";
+    document.getElementById("thursday").innerHTML = "Jueves: 8-9pm";
+    document.getElementById("friday").innerHTML = "Viernes: 7-9pm";
+    document.getElementById("sat-sun").innerHTML = "Sabado/Domingo: 7-9pm";
+    document.getElementById("my-form-button").innerHTML = "Enviar";
+    document.getElementById("phone").innerHTML = "Numero de Telefono: (951) 352-3214";
+    document.getElementById("email").innerHTML = "Correo Electronico: clindoriverside@gmail.com"
 
   }
 
@@ -67,6 +78,17 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("view-menu").innerHTML = "View Menu";
     document.getElementById("business-hours").innerHTML = "Business Hours:";
     document.getElementById("mensaje").innerHTML = "Message:";
+    document.getElementById("my-form-button").innerHTML = "Submit";
+    document.getElementById("directions").innerHTML = "Directions";
+
+
+    document.getElementById("monday").innerHTML = "Monday: 8-9pm"
+    document.getElementById("tuesday").innerHTML = "Tuesday: 8-9pm"
+    document.getElementById("wednesday").innerHTML = "Wednesday: 8-9pm"
+    document.getElementById("thursday").innerHTML = "Thursday: 8-9pm"
+    document.getElementById("friday").innerHTML = "Friday: 7-9pm"
+    document.getElementById("sat-sun").innerHTML = "Sat/Sun: 7-9pm"
+    document.getElementById("phone").innerHTML = "Phone number: (951) 352-3214";
 
   }
         
@@ -95,11 +117,6 @@ setInterval(function() {
         i =  0;
       }
 }, 4000);
-
-
-
-
-
 
 
 
