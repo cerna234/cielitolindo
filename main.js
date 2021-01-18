@@ -80,6 +80,7 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("mensaje").innerHTML = "Message:";
     document.getElementById("my-form-button").innerHTML = "Submit";
     document.getElementById("directions").innerHTML = "Directions";
+    document.getElementById("email").innerHTML = "Email: clindoriverside@gmail.com"
 
 
     document.getElementById("monday").innerHTML = "Monday: 8-9pm"
