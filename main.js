@@ -53,9 +53,9 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("subtext").innerHTML = "Mariscos y comida mexicana fresca";
     document.getElementById("yelp-page").innerHTML = "Pagina de Yelp";
     document.getElementById("view-menu").innerHTML = "Ver Menu";
-    document.getElementById("business-hours").innerHTML = "Horas de operacion";
+    document.getElementById("business-hours").innerHTML = "Horas de operacion:";
     document.getElementById("mensaje").innerHTML = "Mensaje:";
-    document.getElementById("directions").innerHTML = "Direcciones";
+    document.getElementById("directions").innerHTML = "Direcciones:";
 
     document.getElementById("monday").innerHTML = "Lunes: 8-9pm";
     document.getElementById("tuesday").innerHTML = "Martes: 8-9pm";
