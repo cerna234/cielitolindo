@@ -802,18 +802,19 @@ form{
 
 
 
+ 
  @media only screen and (max-height: 300px){
     .first-page{
         background-image: url("background.jpg");
         background-size: cover;
         width: 100%;
-        height: 160vh;
+        height: 180vh;
         position: relative;
     }
     
     .second-page{
         width: 100%;
-        height: 110vh;
+        height: 170vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 2px;
@@ -835,13 +836,13 @@ form{
         position: relative;
         bottom: 20px;
         width: 100%;
-        height:130vh;
+        height:190vh;
        
         background-size: cover;
         
     }
     #map-page{
-        height: 180vh;
+        height: 220vh;
         background-color: rgb(54, 31, 13);
        
     }
@@ -896,7 +897,7 @@ form{
 
     .third-page{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 3px;
@@ -905,7 +906,7 @@ form{
         position: relative;
         bottom: 20px;
         width: 100%;
-        height:130vh;
+        height:160vh;
        
         background-size: cover;
         
