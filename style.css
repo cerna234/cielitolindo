@@ -535,8 +535,11 @@ form button{
     height: 60px;
     left: 75%;
     top: 80%;
+    opacity:70%;
     
 }
+#backToTop:hover{
+    opacity:100%;
 
  /* styling when page is 700px or over 
 --------------------------------------
