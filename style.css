@@ -808,13 +808,13 @@ form{
         background-image: url("background.jpg");
         background-size: cover;
         width: 100%;
-        height: 130vh;
+        height: 160vh;
         position: relative;
     }
     
     .second-page{
         width: 100%;
-        height: 110vh;
+        height: 170vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 2px;
@@ -827,7 +827,7 @@ form{
 
     .third-page{
         width: 100%;
-        height: 70vh;
+        height: 140vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 3px;
@@ -836,13 +836,13 @@ form{
         position: relative;
         bottom: 20px;
         width: 100%;
-        height:100vh;
+        height:150vh;
        
         background-size: cover;
         
     }
     #map-page{
-        height: 90vh;
+        height: 110vh;
         background-color: rgb(54, 31, 13);
        
     }
