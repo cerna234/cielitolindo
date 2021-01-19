@@ -923,7 +923,7 @@ form{
     #language-change{
         z-index: 1;
         position: fixed;
-        bottom: 10px;
+        bottom: 50px;
         background-color: rgba(37, 21, 3, 0.335);
         padding: 1px 1px;
         opacity: 80%;
