@@ -526,7 +526,7 @@ form button{
 
 #language-change h2{
     color: white;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 #backToTop{
@@ -788,6 +788,15 @@ form{
     
 }
 
+#flag1-img,#flag2-img{
+    width: 100px;
+    height: 60px;
+}
+#language-change h2{
+    color: white;
+    font-size: 20px;
+}
+
  }
 
  
@@ -851,11 +860,8 @@ form{
         background-color: rgba(37, 21, 3, 0.335);
         padding: 1px 1px;
         opacity: 80%;
-    
-    
-        
-        
     }
+    
  }
 
 
@@ -867,7 +873,7 @@ form{
        
         padding-top:4%;
         font-size: 60px;
-      
+       
         
     }
     .subtext{
