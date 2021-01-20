@@ -1,5 +1,5 @@
 
- html,body {
+html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
@@ -534,7 +534,7 @@ form button{
     z-index: 1;
     width: 60px;
     height: 60px;
-    left: 84%;
+    left: 88%;
     top: 80%;
     
 }
@@ -765,14 +765,7 @@ form button{
 }
    
 
-.description{
-    font-size: 20px;
-  }
- 
- 
-  .price{
-     font-size: 20px;
-  }
+
   .menu-subtext{
       font-size: 15px; 
   }
@@ -792,30 +785,24 @@ form button{
 
 form{
     width: 100%;
+    
 }
 
  }
 
  
-
-
-
-
-
- @media (orientation: landscape) {
-   
-  
+ @media only screen and (max-height: 300px){
     .first-page{
         background-image: url("background.jpg");
         background-size: cover;
         width: 100%;
-        height: 130vh;
+        height: 160vh;
         position: relative;
     }
     
     .second-page{
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 2px;
@@ -828,7 +815,7 @@ form{
 
     .third-page{
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         background-color: rgb(54, 31, 13);
         position: relative;
         bottom: 3px;
@@ -837,13 +824,13 @@ form{
         position: relative;
         bottom: 20px;
         width: 100%;
-        height:140vh;
+        height:130vh;
        
         background-size: cover;
         
     }
     #map-page{
-        height: 110vh;
+        height: 180vh;
         background-color: rgb(54, 31, 13);
        
     }
@@ -874,3 +861,108 @@ form{
 
 
 
+ @media screen and  (orientation: landscape) and (max-width:800px)  {
+
+    .cielito-lindo{
+       
+        padding-top:4%;
+        font-size: 60px;
+        color: black;
+        
+    }
+    .subtext{
+        padding-bottom: 4% ;
+        position: relative;
+        font-size: 20px;
+    }
+   
+    .hours-title{
+        font-size: 35px;
+    }
+    .grid-item{
+        font-size: 20px;
+    }
+    .grid-container{
+        height: 80vh;
+        position: relative;
+        top: 10%;
+        
+    }
+    .contact-us{
+        font-size: 40px;
+    }
+    
+    .first-page{
+        background-image: url("background.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 180vh;
+        position: relative;
+    }
+    
+    .second-page{
+        width: 100%;
+        height: 110vh;
+        background-color: rgb(54, 31, 13);
+        position: relative;
+        bottom: 2px;
+    }
+    
+    /* */
+    
+    .email input{
+        position: relative;
+        width: 40%;
+        left: 28% ;
+        box-shadow: 3px 3px 3px black;
+        border-radius: 5px;
+        height: 3vh;
+        
+     }
+     
+
+    .third-page{
+        width: 100%;
+        height: 190vh;
+        
+        bottom: 3px;
+    }
+
+    /* */
+    #contact-page{
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+        height:170vh;
+       
+        background-size: cover;
+        
+    }
+    #map-page{
+        height: 80vh;
+        background-color: rgb(54, 31, 13);
+       
+    }
+
+    .phone{
+        color: rgb(241, 241, 241);
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 180%;
+        font-family: 'Nunito', sans-serif;
+        text-shadow: 3px 3px 3px black;
+    }
+    #language-change{
+        z-index: 1;
+        position: fixed;
+        bottom: 10px;
+        background-color: rgba(37, 21, 3, 0.335);
+        padding: 1px 1px;
+        opacity: 80%;
+    
+    
+        
+        
+    }
+ }
