@@ -98,7 +98,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
 var images = [
   
-  "menudo.jpg",
+  "menudoUpdated.jpeg",
   "restaurant.jpg",
   "background.jpg",
   
