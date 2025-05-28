@@ -12,8 +12,14 @@
 <body >
  
     
-        
+        <script>
+        window.onload = function() {
+          document.getElementById('restaurant-popup').style.display = 'block';
+        };
+      </script>
       <header>
+
+      
         <nav id="nav-bar">
               
           <ul> <a  href="index.html"><img  class="logo"  src="cathedral5.png" ></a>
@@ -25,15 +31,27 @@
 
           
       </nav>
+      <div id="restaurant-popup" style="position: fixed; top: 0; left: 0; width: 100%; background: #fffffff8; color: #4e342e; border-bottom: 3px solid #ff7043; padding: 20px; z-index: 9999; font-family: 'Segoe UI', sans-serif; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); box-sizing: border-box;">
+  <div style="position: relative; max-width: 900px; margin: 0 auto; padding-right: 40px; text-align: center;">
+    <button onclick="document.getElementById('restaurant-popup').style.display='none'" 
+            style="position: absolute; top: 0; right: 0; background: none; border: none; font-size: 24px; color: #4e342e; cursor: pointer; line-height: 1;">
+      ×
+    </button>
+    <strong style="font-size: 20px;">Important Notice from Clielito Lindo</strong><br><br>
+    Due to a recent fire at a neighboring business, we are temporarily closed while we complete and pass a full inspection following smoke exposure. Thank you for your understanding — we look forward to serving you again soon.
+  </div>
+</div>
       </header>
 
       <div id=img class="first-page">
+       
       
         <div class="main-text">
             <h2 class="cielito-lindo">Cielito Lindo</h2>
             <h2 class="subtext" id="subtext">Fresh Mexican food and Seafood</h2>
             
         </div>
+        
         <div id="language-change">
           <h2>Click here <br> for Langauge:</h2>
           <button onclick="changeLanguageEnglish()" id="flag1" class="language" ><img id="flag1-img" width="50px" height="25px" src="usflag.png"></button> 
